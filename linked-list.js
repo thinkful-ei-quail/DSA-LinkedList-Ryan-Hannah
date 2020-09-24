@@ -261,7 +261,7 @@ function thirdFromEnd(list) {
             return currentNode.value
         }
     }
-    if (currentNode.next === null) {
+    if (currentNode === null) {
         console.log('item not found')
         return null
     }
